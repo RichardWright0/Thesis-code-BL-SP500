@@ -33,6 +33,7 @@ A small run down of the code goes,
   than that to the uniform distribution which is why we say the data follows Benford's Law.
 
 References:
+
 (1) Marco Corazza, Andrea Ellero, and Alberto Zorzi. Checking financial markets via ben-ford’s law: the s&p 500 case. In Marco Corazza and Claudio Pizzi, editors, Mathematicaland Statistical Methods for Actuarial Sciences and Finance, pages 93–102, Milano, 2010.Springer Milan
 
 (2) Tommaso Belluzzo.  Benford’s law. https://github.com/TommasoBelluzzo/BenfordLaw, (2021).
