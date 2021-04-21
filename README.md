@@ -10,9 +10,9 @@ to analyse, I included the datasets so you know what they should look like.
 The data I provided should be input like so;
 * AAPLold.csv with CPS_240_617_1994
 * AAPL.csv with CPS_361_617_2007
-  Data used to replicate the paper (1)
+  (Data used to replicate the paper (1))
 * TSLA.csv with CPS_449_617_2020 
-  small note the this CPS is different than that in thesis
+  (Small note the this CPS is different than that in thesis)
 
 A small run down of the code goes,
 * data colleting first.
