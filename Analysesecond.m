@@ -4,7 +4,7 @@ c1=readtable('AAPL.csv');
 %c1(2528,:)=[];%for AAPLold
 
 % logarithmic returns of close prices
-CPS=struct2array(load('CPS_361_617_2007'));
+CPS=struct2array(load('CPS_361_613_2007'));
 log_rets=tick2ret(CPS,datetime(c1{:,1}),'Continuous');
 [m,n]=size(log_rets);
 %% adjusting data for function
@@ -202,7 +202,7 @@ plot(x,y,'Color',[100 100 100]/256,'LineStyle','--','LineWidth',1)
 grid on
 ylabel('\it{P_d}')
 xlabel('First Significant Digit')
-title('Distribution of First Digit Occurrence in Returns for Most and Least Accepted Days')
+title('Most and Least Accepted Days')
 legend('Most Accepted Day','Least Accepted Day','Second Law Distribution','Uniform Distribution')
 hold off
 %%
