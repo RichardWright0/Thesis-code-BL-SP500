@@ -1,6 +1,6 @@
 # Thesis-code-BL-SP500
 
-This code is the how the results from the thesis "title" where achieved.
+This code is the how the results from the thesis "An Analysis of Financial Markets via Benford's Law" were achieved.
 
 The two data thats needed to run is one stocks "csv" file from yahoo finance that contains the 
 date interval for the rest of the data adjusting the code to function for other date inputs 
